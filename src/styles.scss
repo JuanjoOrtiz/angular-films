@@ -1,28 +1,31 @@
 // Variables
-$white : #FFFFFF;
-$background: #14161E;
+:root {
+    $white : #FFFFFF;
+    $background: #14161E;
 
 
 
-body {
-    background-color: $background;
-}
+    body {
+        background-color: $background;
+    }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-weight: 200;
-    color: $white;
-}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-weight: 200;
+        color: $white;
+    }
 
-p {
-    color: $white;
+    p {
+        color: $white;
 
-}
+    }
 
-hr {
-    color: $white;
+    hr {
+        color: $white;
+
+    }
 
 }
