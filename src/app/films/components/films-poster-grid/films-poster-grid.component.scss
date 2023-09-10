@@ -1,0 +1,64 @@
+@import "css-star-rating/scss/star-rating";
+
+
+$color-negative-rating: #0f0 !default;
+$color-ok-rating: #f00 !default;
+$color-positive-rating: #00f !default;
+$color-default-rating: #ff0 !default;
+
+h3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.poster {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 70%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+.rating.color-negative .star-container .star {
+    svg {
+        fill: #ff0;
+    }
+
+    i {
+        color: #ff0;
+    }
+}
+
+.rating.color-ok .star-container .star {
+    svg {
+        fill: #ff0;
+    }
+
+    i {
+        color: #ff0;
+    }
+}
+
+.rating.color-positive .star-container .star {
+    svg {
+        fill: #ff0;
+    }
+
+    i {
+        color: #ff0;
+    }
+}
+
+.rating.color-default .star-container .star {
+    svg {
+        fill: #ff0;
+    }
+
+    i {
+        color: #ff0;
+    }
+}
