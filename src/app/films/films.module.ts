@@ -16,7 +16,7 @@ import { FilmsPageComponent } from './pages/films-page/films-page.component';
     FilmsRoutingModule
   ],
   exports:[
-    SlideshowComponent
+   FilmsPageComponent
   ]
 })
 export class FilmsModule { }
